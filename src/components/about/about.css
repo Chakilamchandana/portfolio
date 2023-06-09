@@ -1,0 +1,121 @@
+
+.about__container{
+    display: grid;
+    grid-template-columns: 30% 55%;
+    gap: 17%;
+}
+
+.about__media{
+    width: 100%;
+    height: 27rem ;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about__image{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about__image:hover{
+    transform: rotate(0deg);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.aboutcard{
+    /* background: var(--color-bg-variant); */
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: center;
+    width: 12rem;
+    transition: var(--transition);
+}
+
+.aboutcard:hover{
+    background-color: transparent;
+    border-color: var(--color-bg-variant);
+}
+
+
+.btn{
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about__icon{
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+
+}
+
+.aboutcard h4{
+    font-size: 1.4rem;
+}
+
+.aboutcard small{
+    font-size: 0.8rem;
+}
+
+.about__content p{
+    color: var(--color-primary);
+    margin: 2.5rem auto 2.5rem;
+    font-size: 1.15rem;
+    text-align:justify;
+    font-weight: 500;
+}
+
+/* media queries for different devices */
+
+
+@media screen and (max-width: 1024px){
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__media{
+        width: 55%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about__content p{
+        margin: 1.5rem 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about__media{
+        width: 63%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content{
+        text-align: center;
+    }
+
+    .about__content p{
+        margin: 1.5rem 0;
+    }
+
+}
