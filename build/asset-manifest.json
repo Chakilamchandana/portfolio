@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6fb32eaf.css",
+    "main.js": "/static/js/main.9535ca13.js",
+    "static/media/Subject 4.png": "/static/media/Subject 4.81857a32123073861dc0.png",
+    "static/media/picture3.JPG": "/static/media/picture3.3a0acc0e205d8de273af.JPG",
+    "static/media/CrimsonBoard.png": "/static/media/CrimsonBoard.01d4a47f5ea0713515aa.png",
+    "static/media/Srichandana Chakilam Resume.pdf": "/static/media/Srichandana Chakilam Resume.0c8b5ee07ad14199a254.pdf",
+    "static/media/Picture1.png": "/static/media/Picture1.fb6a57e37b72bdbcc2ff.png",
+    "index.html": "/index.html",
+    "main.6fb32eaf.css.map": "/static/css/main.6fb32eaf.css.map",
+    "main.9535ca13.js.map": "/static/js/main.9535ca13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fb32eaf.css",
+    "static/js/main.9535ca13.js"
+  ]
+}
