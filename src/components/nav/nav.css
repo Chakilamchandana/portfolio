@@ -33,3 +33,19 @@ nav a.active{
     background-color: var(--color-primary);
     color: var(--color-bg);
 }
+
+@media screen and (max-width: 600px){
+    nav{
+        position: fixed;
+        z-index: 5;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 3rem;
+        width: fit-content;
+        display: flex;
+        padding: 0.5rem 1rem;
+        gap: 1rem ;
+        
+    }
+}
+    

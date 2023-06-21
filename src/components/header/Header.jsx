@@ -8,7 +8,7 @@ import HeaderSocials from './HeaderSocials.jsx'
 const Header = () => {
 
   const [text] = useTypewriter({
-    words: ['a Frontend Developer...', 'a Full-Stack Learner...','an Art and Space Enthusiast...'],
+    words: ['a Developer...', 'a Data Analyst...','a Full-Stack Learner...'],
     loop:{},
     typeSpeed: 120,
     deleteSpeed: 80,
@@ -30,7 +30,7 @@ const Header = () => {
         <Action/>
         <HeaderSocials/>
         <div className='me'>
-            <img src={myimage} alt=''/>
+            <img className = 'headerimg' src={myimage} alt=''/>
         </div>
         <a href='#contact' className='scroll__down'>Scroll Down </a>
 

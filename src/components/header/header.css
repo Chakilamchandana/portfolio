@@ -44,7 +44,7 @@ header{
     position: absolute;
     left: calc(50% - 10rem);
     margin-top: 3rem;
-    border-radius: 5rem 5rem;
+    border-radius: 5rem;
     overflow: hidden;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
@@ -66,18 +66,41 @@ header{
 
 @media screen and (max-width: 1024px){
     header{
-        height: 70vh;
+        height: 90vh;
+        overflow: inherit;
+        margin-bottom: 18rem;
+        margin-left: 2rem;
+        justify-content: center;
     }
+
+    .scroll__down{
+        bottom: 1rem;
+    }
+
+    .header__socials{
+        bottom: -1rem;
+    }
+
 }
 
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
+        height: 90vh;
+        border-radius: 5rem;
+        margin-bottom: 25rem;
+        margin-left: 2rem;
+        justify-content: center;
+
     }
     .header__socials, .scroll__down{
         display: none;
     }
-    div.me{
-        height: 42rem;
+    .me{
+        height: 25rem;
+    }
+    img.headerimg{
+        height: 127vh;
+        /* display: contents; */
+        /* object-fit: none; */
     }
 }

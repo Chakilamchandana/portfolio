@@ -73,14 +73,54 @@ button{
 
 @media screen and (max-width: 1024px){
     .container.contact__container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 40% 60%;
         gap: 2rem;
     }
+    .waytocontact{
+        display: flex;
+        gap: 4rem;
+    }
+
+    .sendbtn{
+        font-size: 18px;
+        margin-left: 65%;
+    }
+
+    .contact_option {
+        height: 12rem;
+    }
+
+    .contact_option a{
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        display: grid;
+    }
+
 }
 
 @media screen and (max-width: 600px){
     .container.contact__container{
        width: var(--container-width-sm);
+       grid-template-columns: 35% 54%;
+       gap: 2rem;
     }
-    
+
+    .contact_option {
+        height: 12rem;
+    }
+    .contact_option a{
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    } 
+    .waytocontact{
+        margin-top: 1rem;
+        display: flex;
+        gap: 2rem;
+
+    }
+
+    .sendbtn{
+        font-size: 14px;
+        margin-left: 30%;
+    }
 }
