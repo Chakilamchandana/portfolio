@@ -12,6 +12,10 @@ header{
 
 .typetext{
     font-size: 24px;
+    color: var(--color-primary-variant);
+}
+
+h1,h3,h2{
     color: var(--color-primary);
 }
 

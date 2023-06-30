@@ -8,7 +8,9 @@
 .waytocontact{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 6.5rem;
+    /* border: 1px solid; */
+    border-radius: 2rem;
 }
 
 .contact_option{
@@ -16,15 +18,16 @@
     padding: 1rem;
     text-align: center;
     border-radius: 1.2rem;
-    border: 1px solid transparent;
+    border: 1px solid;
     transition: var(--transition);
     height: 20vh;
+    border-color: var(--color-primary);
     /* margin: 1rem; */
 }
 
 .contact_option:hover{
     background: transparent;
-    border-color: var(--color-bg-variant);
+    border-color: var(--color-white);
 }
 
 .contact-icon{

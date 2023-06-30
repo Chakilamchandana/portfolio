@@ -15,16 +15,22 @@
 
 :root{
     /* --color-bg: #1f1f38; */
-    --color-bg: #e7b193;
+    /* --color-bg: #e7b193; */
+    --color-bg: #e7ecef;
     /* --color-primary: #f0efeb; */
-    --color-primary: #b33e2e;
-    --color-primary-variant: #fff1e6;
-    --color-bg-variant: #e8d1c5;
+    /* --color-primary: #b33e2e; */
+    --color-primary: #274c77;
+    /* --color-primary-variant: #fff1e6; */
+    --color-primary-variant: #6096ba;
+    /* --color-bg-variant: #e8d1c5; */
+    --color-bg-varaint: #a3cef1;
     /* --color-bg-variant: #2c2c6c; */
     /* --color-primary: #4db5ff; */
     /* --color-primary-variant: rgba(77,181,255,0.4); */
     --color-white: #f0efeb;
-    --color-light: rgba(186, 49, 49, 0.6);
+    /* --color-light: rgba(186, 49, 49, 0.6); */
+    --color-light: #8b8c89;
+    /* --color-border: #ff9b54; */
 
     --transition: all 400ms ease;
 
@@ -110,8 +116,8 @@ a:hover{
 
 .btn:hover{
     background-color: var(--color-primary-variant);
-    /* color: var(--color-bg); */
-    color: var(--color-light);
+    color: var(--color-bg); 
+    /* color: var(--color-light);  */
     border-color: transparent;
 }
 

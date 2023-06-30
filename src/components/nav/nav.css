@@ -26,7 +26,9 @@ nav a{
 }
 
 nav a:hover{
-    background-color: rgba(109, 66, 66, 0.274);
+    /* background-color: rgba(109, 66, 66, 0.274); */
+    background-color: azure;
+    color: var(--color-primary);
 }
 
 nav a.active{

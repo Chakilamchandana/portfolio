@@ -63,12 +63,11 @@ const About = () => {
         solutions, driving innovation, and using data to make informed decisions. By combining my expertise in development and 
         analysis, I aim to create impactful solutions that integrate both disciplines and provide valuable insights to drive business success.
         </p><br/> 
-        <p>Outside of work, I enjoy exploring different art forms like painting and digital design. These creative outlets inspire 
-        me to approach coding projects with a fresh perspective and find innovative solutions. I believe in the harmony between art 
-        and technology, striving to create visually captivating solutions that go beyond traditional coding boundaries.
+        <p>I believe in the harmony between art and technology. Outside of work, I enjoy exploring different art forms like Zentangle and Geometric art. These creative outlets inspire 
+        me to approach projects with a fresh perspective and find innovative solutions. 
         </p><br/>
         <p>Thank you for gracing my website with your presence, and I eagerly anticipate crossing paths with you soon.</p>
-        <p className='initial'> - Srichandana </p>
+        {/* <p className='initial'> - Chandana </p> */}
 
         </div>
 
