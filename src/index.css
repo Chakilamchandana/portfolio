@@ -86,7 +86,7 @@ section > h4{
 section > h3{
     text-align: center;
     color: var(--color-primary);
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .text-light{

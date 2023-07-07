@@ -1,14 +1,14 @@
 .container.contact__container{
     width: 78%;
     display: grid;
-    grid-template-columns: 20% 70%;
+    grid-template-columns: 20% 60%;
     gap: 10%;
 }
 
 .waytocontact{
     display: flex;
     flex-direction: column;
-    gap: 6.5rem;
+    gap: 6rem;
     /* border: 1px solid; */
     border-radius: 2rem;
 }
@@ -32,7 +32,7 @@
 
 .contact-icon{
     font-size: 1.7rem;
-    margin: 0.8rem;
+    margin: 0.5rem;
     color: var(--color-primary);
     transition: var(--transition);
 }
@@ -43,9 +43,10 @@
 } */
 
 .contact_option a{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     font-size: 1.2rem;
-    display: inline-block;
+    display: grid;
+    gap: 20%;
 }
 
 /* for the form */
