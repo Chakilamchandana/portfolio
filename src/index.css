@@ -34,7 +34,7 @@
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 75%;
+    --container-width-lg: 70%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 
@@ -51,7 +51,7 @@ html{
 body{
     font-family: 'Quicksand', sans-serif;
     background: var(--color-bg);
-    /* background: url(./assets/overlay.jpeg); */
+    background: url("https://www.transparenttextures.com/patterns/cubes.png");;
     /* color: var(--color-white); */
     color: var(--color-primary);
     line-height: 1.7;
@@ -152,11 +152,15 @@ img{
     }
 
     section > h2{
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
 
     section{
         margin-top: 4rem;
+    }
+    
+    h2{
+        font-size: 18px;
     } 
 
 }

@@ -12,12 +12,30 @@ const About = () => {
       <h3>About Me</h3>
 
       <div className='container about__container'>
-        <div className='about__media'>
+        {/* <div className='about__media'>
           <div className='about__image'>
             <img className='aboutimg' src={picture2} alt='About img'/>
           </div>
+        </div> */}
+        <div className='aboutmyself'>
+
+        <p>As an experienced software engineer with three years of practical know-how, I am currently pursuing a graduate degree in 
+        Computer Science at Indiana University Bloomington. My passion lies in web development and data analysis, where I strive to 
+        explore new technologies that enhance the user experience, make interfaces seamless, and derive insights from data.
+        </p><br/>
+        <p>
+        With a strong software engineering background and a keen interest in data analysis, I'm dedicated to delivering high-quality 
+        solutions, driving innovation, and using data to make informed decisions. By combining my expertise in development and 
+        analysis, I aim to create impactful solutions that integrate both disciplines and provide valuable insights to drive business success.
+        </p><br/> 
+        <p>I believe in the harmony between art and technology. Outside of work, I enjoy exploring different art forms like Zentangle and Geometric art. These creative outlets inspire 
+        me to approach projects with a fresh perspective and find innovative solutions. 
+        </p><br/>
+        <p>Thank you for gracing my website with your presence, and I eagerly anticipate crossing paths with you soon.</p>
+        {/* <p className='initial'> - Chandana </p> */}
+
         </div>
-        
+
         <div className='about__content'>
         
         <div className='about__cards'>
@@ -52,24 +70,7 @@ const About = () => {
         </div>
         
       </div>
-      <div className='aboutmyself'>
-
-        <p>As an experienced software engineer with three years of practical know-how, I am currently pursuing a graduate degree in 
-        Computer Science at Indiana University Bloomington. My passion lies in web development and data analysis, where I strive to 
-        explore new technologies that enhance the user experience, make interfaces seamless, and derive insights from data.
-        </p><br/>
-        <p>
-        With a strong software engineering background and a keen interest in data analysis, I'm dedicated to delivering high-quality 
-        solutions, driving innovation, and using data to make informed decisions. By combining my expertise in development and 
-        analysis, I aim to create impactful solutions that integrate both disciplines and provide valuable insights to drive business success.
-        </p><br/> 
-        <p>I believe in the harmony between art and technology. Outside of work, I enjoy exploring different art forms like Zentangle and Geometric art. These creative outlets inspire 
-        me to approach projects with a fresh perspective and find innovative solutions. 
-        </p><br/>
-        <p>Thank you for gracing my website with your presence, and I eagerly anticipate crossing paths with you soon.</p>
-        {/* <p className='initial'> - Chandana </p> */}
-
-        </div>
+      
 
     </section>
   )

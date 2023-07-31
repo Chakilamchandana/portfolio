@@ -1,5 +1,5 @@
 header{
-    height: 100vh;
+    height: 90vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -8,6 +8,7 @@ header{
     text-align: center;
     height: 100%;
     position: relative;
+    
 }
 
 .typetext{
@@ -36,8 +37,8 @@ h1,h3,h2{
     gap: 0.8rem;
     position: absolute;
     flex-direction: column;
-    left: 0;
-    bottom: 3rem;
+    left: 10rem;
+    bottom: 0rem;
 }
 
 /* for image */
@@ -47,7 +48,7 @@ h1,h3,h2{
     height: 24rem;
     position: absolute;
     left: calc(50% - 10rem);
-    margin-top: 3rem;
+    margin-top: 7rem;
     border-radius: 5rem;
     overflow: hidden;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
@@ -59,8 +60,8 @@ h1,h3,h2{
     align-items: center;
     flex-direction: column;
     position: absolute;
-    right: -2rem;
-    bottom: 5rem;
+    right: 9rem;
+    bottom: 2rem;
     transform: rotate(90deg);
     font-weight: 100;
     font-size: 0.9rem;
@@ -70,7 +71,7 @@ h1,h3,h2{
 
 @media screen and (max-width: 1024px){
     header{
-        height: 90vh;
+        height: 120vh;
         overflow: inherit;
         margin-bottom: 18rem;
         margin-left: 2rem;
@@ -78,7 +79,8 @@ h1,h3,h2{
     }
 
     .scroll__down{
-        bottom: 1rem;
+        bottom: 7rem;
+        right: 1rem;
     }
 
     .header__socials{
@@ -90,11 +92,16 @@ h1,h3,h2{
 @media screen and (max-width: 600px){
     header{
         height: 90vh;
+        padding-top: 0rem;
         border-radius: 5rem;
-        margin-bottom: 25rem;
+        margin-bottom: 5rem;
         margin-left: 2rem;
+        margin-right: 2rem;
         justify-content: center;
 
+    }
+    .typetext{
+        font-size: 18px;
     }
     .header__socials, .scroll__down{
         display: none;
@@ -103,7 +110,7 @@ h1,h3,h2{
         height: 25rem;
     }
     img.headerimg{
-        height: 127vh;
+        height: 135vh;
         /* display: contents; */
         /* object-fit: none; */
     }
