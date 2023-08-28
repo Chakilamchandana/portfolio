@@ -5,6 +5,7 @@ import crimson from '../../assets/CrimsonBoard.png'
 import paper1 from '../../assets/Hamster.png'
 import paper2 from '../../assets/Paper2.png'
 import paper3 from '../../assets/Paper3.png'
+import todo from '../../assets/todo.png'
 
 const Portfolio = () => {
   return (
@@ -22,6 +23,17 @@ const Portfolio = () => {
           <div className="actionbtn">
           <a href='https://github.com/Chakilamchandana/django_lms' className='btn' target='_blank'>GitHub</a>
           <a href='https://drive.google.com/file/d/1MDKJ6Sfl7JpR_6RZt51TwprtZrkYlFaP/view?usp=drive_link' className='btn btn-primary' target='_blank'>Demo</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={todo} alt='Life Expectancy Prediction Model'/> 
+          </div>
+          <h3> To-Do Application - leveraging React.js and CSS </h3>
+          <div className="actionbtn">
+            <a href='https://github.com/Chakilamchandana/Social-Media-about-Climate-Change' className='btn' target='_blank'>GitHub</a>
+            <a href='https://t0d0listapp.netlify.app/' className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
 
