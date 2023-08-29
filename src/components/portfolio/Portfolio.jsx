@@ -6,6 +6,7 @@ import paper1 from '../../assets/Hamster.png'
 import paper2 from '../../assets/Paper2.png'
 import paper3 from '../../assets/Paper3.png'
 import todo from '../../assets/todo.png'
+import cocktail from '../../assets/background.avif'
 
 const Portfolio = () => {
   return (
@@ -28,12 +29,23 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={todo} alt='Life Expectancy Prediction Model'/> 
+            <img src={todo} alt='To-do application'/> 
           </div>
           <h3> To-Do Application - leveraging React.js and CSS </h3>
           <div className="actionbtn">
             <a href='https://github.com/Chakilamchandana/Social-Media-about-Climate-Change' className='btn' target='_blank'>GitHub</a>
             <a href='https://t0d0listapp.netlify.app/' className='btn btn-primary' target='_blank'>Demo</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={cocktail} alt='Life Expectancy Prediction Model'/> 
+          </div>
+          <h3>Cocktail Generator leveraging Node & ExpressJS, and CSS </h3>
+          <div className="actionbtn">
+            <a href='https://github.com/Chakilamchandana/Cocktail-Generator' className='btn' target='_blank'>GitHub</a>
+            <a href='https://cocktail-generator-app.onrender.com/' className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
 
