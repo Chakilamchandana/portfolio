@@ -37,6 +37,12 @@
     gap: 1.3rem;
 }
 
+.viewbtn{
+  position: relative;
+  left: 90rem;
+  top: 80rem;
+}
+
 /* media queries for different devices */
 
 

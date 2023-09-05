@@ -5,6 +5,7 @@ import crimson from '../../assets/CrimsonBoard.png'
 import paper1 from '../../assets/Hamster.png'
 import paper2 from '../../assets/Paper2.png'
 import paper3 from '../../assets/Paper3.png'
+import logo from '../../assets/logo.png'
 import todo from '../../assets/todo.png'
 import cocktail from '../../assets/background.avif'
 
@@ -13,6 +14,7 @@ const Portfolio = () => {
     <section id='portfolio'>
       <h4>My Recent Work</h4>
       <h3>The projects</h3>
+      {/* <a href='/' className='viewbtn'>View All Projects</a> */}
 
       <div className="container portfolio__container">
 
@@ -29,11 +31,22 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
+          <img src={logo} alt='Jot Box'/>  
+          </div>
+          <h3>A jot box application leveraging ReactJS and CSS</h3>
+          <div className="actionbtn">
+          <a href='https://github.com/Chakilamchandana/jotbox' className='btn' target='_blank'>GitHub</a>
+          <a href='https://jotbox.netlify.app/' className='btn btn-primary' target='_blank'>Website</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
             <img src='https://images.unsplash.com/photo-1629382900018-a3c7c3974f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80' alt='To-do application'/> 
           </div>
-          <h3> To-Do Application - leveraging React.js and CSS </h3>
+          <h3> To-Do Application - leveraging ReactJS and CSS </h3>
           <div className="actionbtn">
-            <a href='https://github.com/Chakilamchandana/Social-Media-about-Climate-Change' className='btn' target='_blank'>GitHub</a>
+            <a href='https://github.com/Chakilamchandana/todoapp' className='btn' target='_blank'>GitHub</a>
             <a href='https://t0d0listapp.netlify.app/' className='btn btn-primary' target='_blank'>Website</a>
           </div>
         </article>
