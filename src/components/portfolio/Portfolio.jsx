@@ -7,6 +7,7 @@ import paper2 from '../../assets/Paper2.png'
 import paper3 from '../../assets/Paper3.png'
 import logo from '../../assets/logo.png'
 import todo from '../../assets/todo.png'
+import jobsearch from '../../assets/jobsearch.jpeg'
 import cocktail from '../../assets/background.avif'
 
 const Portfolio = () => {
@@ -37,6 +38,17 @@ const Portfolio = () => {
           <div className="actionbtn">
           <a href='https://github.com/Chakilamchandana/jotbox' className='btn' target='_blank'>GitHub</a>
           <a href='https://jotbox.netlify.app/' className='btn btn-primary' target='_blank'>Website</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={jobsearch} alt='Job Searcher Model'/> 
+          </div>
+          <h3>EZ Job Searcher</h3>
+          <div className="actionbtn">
+            <a href='https://github.com/Chakilamchandana/jobsearcher' className='btn' target='_blank'>GitHub</a>
+            <a href='https://recent-job-searcher.onrender.com/' className='btn btn-primary' target='_blank'>Website</a>
           </div>
         </article>
 
