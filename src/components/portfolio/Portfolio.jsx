@@ -45,7 +45,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={jobsearch} alt='Job Searcher Model'/> 
           </div>
-          <h3>EZ Job Searcher</h3>
+          <h3>EZ Job Searcher leveraging Node & ExpressJS, EJS, and CSS</h3>
           <div className="actionbtn">
             <a href='https://github.com/Chakilamchandana/jobsearcher' className='btn' target='_blank'>GitHub</a>
             <a href='https://recent-job-searcher.onrender.com/' className='btn btn-primary' target='_blank'>Website</a>
@@ -67,7 +67,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={cocktail} alt='Life Expectancy Prediction Model'/> 
           </div>
-          <h3>Cocktail Generator leveraging Node & ExpressJS, and CSS </h3>
+          <h3>Cocktail Generator leveraging Node & ExpressJS, EJS, and CSS </h3>
           <div className="actionbtn">
             <a href='https://github.com/Chakilamchandana/Cocktail-Generator' className='btn' target='_blank'>GitHub</a>
             <a href='https://cocktail-generator-app.onrender.com/' className='btn btn-primary' target='_blank'>Website</a>
