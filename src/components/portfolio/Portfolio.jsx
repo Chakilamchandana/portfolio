@@ -1,127 +1,128 @@
-import React from 'react'
-import './portfolio.css'
-import lifepred from '../../assets/Picture1.png'
-import crimson from '../../assets/CrimsonBoard.png'
-import paper1 from '../../assets/Hamster.png'
-import paper2 from '../../assets/Paper2.png'
-import paper3 from '../../assets/Paper3.png'
-import logo from '../../assets/logo.png'
-import todo from '../../assets/todo.png'
-import jobsearch from '../../assets/jobsearch.jpeg'
-import cocktail from '../../assets/background.avif'
+import React from "react";
+import "./portfolio.css";
+import lifepred from "../../assets/Picture1.png";
+import crimson from "../../assets/CrimsonBoard.png";
+import paper1 from "../../assets/Hamster.png";
+import paper2 from "../../assets/Paper2.png";
+import paper3 from "../../assets/Paper3.png";
+import logo from "../../assets/logo.png";
+import todo from "../../assets/todo.jpeg";
+import jobsearch from "../../assets/jobsearch.jpeg";
+import cocktail from "../../assets/background.avif";
+
+const projectData = [
+  {
+    name: "Crimson Board | The Learning Management System",
+    image: crimson,
+    git: "https://github.com/Chakilamchandana/django_lms",
+    external:
+      "https://drive.google.com/file/d/1MDKJ6Sfl7JpR_6RZt51TwprtZrkYlFaP/view",
+  },
+  {
+    name: "Jot Box | A note-taking system",
+    image: logo,
+    git: "https://github.com/Chakilamchandana/jotbox",
+    external: "https://jotbox.netlify.app/",
+  },
+  {
+    name: "EZ Job searcher | A Job Aggregator",
+    image: jobsearch,
+    git: "https://github.com/Chakilamchandana/jobsearcher",
+    external: "https://recent-job-searcher.onrender.com/",
+  },
+  {
+    name: "To Do | A note-taking system",
+    image: todo,
+    git: "https://github.com/Chakilamchandana/todoapp",
+    external: "https://t0d0listapp.netlify.app/",
+  },
+
+  {
+    name: "Cocktail Generator | Using External API",
+    image: cocktail,
+    git: "https://github.com/Chakilamchandana/Cocktail-Generator",
+    external: "https://cocktail-generator-app.onrender.com/",
+  },
+
+  {
+    name: "Life Expectancy Prediction Model | A prediction model using regression",
+    image: lifepred,
+    git: "https://github.com/Chakilamchandana/Life-Expectancy-Prediction/tree/main/project-schakil-ltaduru-main",
+    external:
+      "https://docs.google.com/presentation/d/e/2PACX-1vQUO1IbdSrAyBY0P3Zcbt6p0ZSnwsgmN1bUpkSaOV1HpcY7rd_0h0HYAG5UHvyHlw/pub?start=false&loop=false&delayms=5000",
+  },
+
+  {
+    name: "Social Media's Take on Climate Change | A paper utilizing Topic Modelling ",
+    image: paper3,
+    git: "https://github.com/Chakilamchandana/Social-Media-about-Climate-Change",
+    external:
+      "https://github.com/Chakilamchandana/Social-Media-about-Climate-Change/tree/main/Supplemental",
+  },
+
+  {
+    name: "Identifying Spam Comments under Instagram Posts | A paper utilizing Content Analysis",
+    image: paper1,
+    git: "https://github.com/Chakilamchandana/Identifying-Spam-Comments",
+    external:
+      "https://github.com/Chakilamchandana/Identifying-Spam-Comments/tree/main/Supplemental_Paper1",
+  },
+
+  {
+    name: "The Study of Recession | A paper utilizing Text Classification",
+    image: paper2,
+    git: "https://github.com/Chakilamchandana/Effects-of-Recession",
+    external:
+      "https://github.com/Chakilamchandana/Effects-of-Recession/tree/main/Supplemental",
+  },
+];
+
+//       {/* <a href='/' className='viewbtn'>View All Projects</a> */}
 
 const Portfolio = () => {
+  const projects = projectData;
   return (
-    <section id='portfolio'>
-      <h4>My Recent Work</h4>
+    <section id="portfolio">
+      <h4>My Notable Work</h4>
       <h3>The projects</h3>
-      {/* <a href='/' className='viewbtn'>View All Projects</a> */}
-
-      <div className="container portfolio__container">
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-          <img src={crimson} alt='Crimson Board LMS'/>  
-          </div>
-          <h3>Crimson Board - The Learning Management System</h3>
-          <div className="actionbtn">
-          <a href='https://github.com/Chakilamchandana/django_lms' className='btn' target='_blank'>GitHub</a>
-          <a href='https://drive.google.com/file/d/1MDKJ6Sfl7JpR_6RZt51TwprtZrkYlFaP/view?usp=drive_link' className='btn btn-primary' target='_blank'>Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-          <img src={logo} alt='Jot Box'/>  
-          </div>
-          <h3>A jot box application leveraging ReactJS and CSS</h3>
-          <div className="actionbtn">
-          <a href='https://github.com/Chakilamchandana/jotbox' className='btn' target='_blank'>GitHub</a>
-          <a href='https://jotbox.netlify.app/' className='btn btn-primary' target='_blank'>Website</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={jobsearch} alt='Job Searcher Model'/> 
-          </div>
-          <h3>EZ Job Searcher leveraging Node & ExpressJS, EJS, and CSS</h3>
-          <div className="actionbtn">
-            <a href='https://github.com/Chakilamchandana/jobsearcher' className='btn' target='_blank'>GitHub</a>
-            <a href='https://recent-job-searcher.onrender.com/' className='btn btn-primary' target='_blank'>Website</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src='https://images.unsplash.com/photo-1629382900018-a3c7c3974f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80' alt='To-do application'/> 
-          </div>
-          <h3> To-Do Application - leveraging ReactJS and CSS </h3>
-          <div className="actionbtn">
-            <a href='https://github.com/Chakilamchandana/todoapp' className='btn' target='_blank'>GitHub</a>
-            <a href='https://t0d0listapp.netlify.app/' className='btn btn-primary' target='_blank'>Website</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={cocktail} alt='Life Expectancy Prediction Model'/> 
-          </div>
-          <h3>Cocktail Generator leveraging Node & ExpressJS, EJS, and CSS </h3>
-          <div className="actionbtn">
-            <a href='https://github.com/Chakilamchandana/Cocktail-Generator' className='btn' target='_blank'>GitHub</a>
-            <a href='https://cocktail-generator-app.onrender.com/' className='btn btn-primary' target='_blank'>Website</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={paper3} alt='Life Expectancy Prediction Model'/> 
-          </div>
-          <h3> Social media's take on climate change using topic modelling </h3>
-          <div className="actionbtn">
-            <a href='https://github.com/Chakilamchandana/Social-Media-about-Climate-Change' className='btn' target='_blank'>GitHub</a>
-            <a href='https://github.com/Chakilamchandana/Social-Media-about-Climate-Change/tree/main/Supplemental' className='btn btn-primary' target='_blank'>Data</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={paper1} alt='Life Expectancy Prediction Model'/> 
-          </div>
-          <h3>Identifying spam comments on Instagram using Content Analysis </h3>
-          <div className="actionbtn">
-            <a href='https://github.com/Chakilamchandana/Identifying-Spam-Comments' className='btn' target='_blank'>GitHub</a>
-            <a href='https://github.com/Chakilamchandana/Identifying-Spam-Comments/tree/main/Supplemental_Paper1' className='btn btn-primary' target='_blank'>Data</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={lifepred} alt='Life Expectancy Prediction Model'/> 
-          </div>
-          <h3>Life Expectancy Prediction Model </h3>
-          <div className="actionbtn">
-            <a href='https://github.com/Chakilamchandana/Life-Expectancy-Prediction/tree/main/project-schakil-ltaduru-main' className='btn' target='_blank'>GitHub</a>
-            <a href='https://docs.google.com/presentation/d/e/2PACX-1vQUO1IbdSrAyBY0P3Zcbt6p0ZSnwsgmN1bUpkSaOV1HpcY7rd_0h0HYAG5UHvyHlw/pub?start=false&loop=false&delayms=5000' className='btn btn-primary' target='_blank'>Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={paper2} alt='Life Expectancy Prediction Model'/> 
-          </div>
-          <h3> The study of recession using text classification </h3>
-          <div className="actionbtn">
-            <a href='https://github.com/Chakilamchandana/Effects-of-Recession' className='btn' target='_blank'>GitHub</a>
-            <a href='https://github.com/Chakilamchandana/Effects-of-Recession/tree/main/Supplemental' className='btn btn-primary' target='_blank'>Data</a>
-          </div>
-        </article>
-
-
+      <div className=" portfolio__container">
+        <>
+          {projects.map((project) => (
+            <Project projectObj={project} key={project.name} />
+          ))}
+        </>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+const Project = (props) => {
+  return (
+    <article className="portfolio__item">
+      <div className="portfolio__item-image">
+        <img src={props.projectObj.image} alt={props.projectObj.name} />
+      </div>
+      <h3 className="projName">{props.projectObj.name}</h3>
+      <div className="actionbtn">
+        <a
+          href={props.projectObj.git}
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        <a
+          href={props.projectObj.external}
+          className="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Demo
+        </a>
+      </div>
+    </article>
+  );
+};
+
+export default Portfolio;

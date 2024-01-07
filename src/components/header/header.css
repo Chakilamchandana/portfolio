@@ -1,117 +1,209 @@
-header{
-    height: 90vh;
-    padding-top: 7rem;
-    overflow: hidden;
+header {
+  height: 104vh;
+  padding-top: 7rem;
+  /* overflow: hidden; */
 }
 
-.header__container{
-    text-align: center;
-    height: 100%;
-    position: relative;
-    
+.header__container {
+  text-align: center;
+  margin-bottom: 10rem;
+  height: 100%;
+  position: relative;
 }
 
-.typetext{
-    font-size: 24px;
-    color: var(--color-primary-variant);
+.typetext {
+  /* font-size: 1.2rem; */
+  color: var(--color-primary-variant);
 }
 
-h1,h3,h2{
-    color: var(--color-primary);
+h1,
+h3,
+h2 {
+  color: var(--color-primary);
 }
-
 
 /* for action buttons */
-.action{
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-
+.action {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 /* for socials */
-.header__socials{
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    flex-direction: column;
-    left: 10rem;
-    bottom: 0rem;
+.header__socials {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  flex-direction: column;
+  left: 10rem;
+  bottom: 0rem;
 }
 
 /* for image */
-.me{
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 20rem;
-    height: 24rem;
-    position: absolute;
-    left: calc(50% - 10rem);
-    margin-top: 7rem;
-    border-radius: 5rem;
-    overflow: hidden;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 20rem;
+  height: 24rem;
+  position: absolute;
+  left: calc(50% - 10rem);
+  margin-top: 4rem;
+  border-radius: 5rem;
+  overflow: hidden;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* for scroll-down */
-.scroll__down{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    right: 9rem;
-    bottom: 2rem;
-    transform: rotate(90deg);
-    font-weight: 100;
-    font-size: 0.9rem;
+.scroll__down {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  right: 9rem;
+  bottom: 2rem;
+  transform: rotate(90deg);
+  font-weight: 100;
+  font-size: 0.9rem;
 }
 
 /* to make the content responsive on different devices */
 
-@media screen and (max-width: 1024px){
-    header{
-        height: 120vh;
-        overflow: inherit;
-        margin-bottom: 18rem;
-        margin-left: 2rem;
-        justify-content: center;
-    }
+/* For extra small devices */
 
-    .scroll__down{
-        bottom: 7rem;
-        right: 1rem;
-    }
+@media only screen and (max-width: 600px) {
+  header {
+    width: 26rem;
+    overflow: visible;
+    height: 100%;
+    margin: 1rem 1rem;
+  }
+  .header__container {
+    margin: 0rem 0rem 35rem 0rem;
+  }
+  .typetext {
+    font-size: 1rem;
+  }
 
-    .header__socials{
-        bottom: -1rem;
-    }
-
+  .scroll__down,
+  .header__socials {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 600px){
-    header{
-        height: 90vh;
-        padding-top: 0rem;
-        border-radius: 5rem;
-        margin-bottom: 5rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        justify-content: center;
+/* @media only screen and (max-width: 600px) {
+  header {
+    height: 90vh;
+    padding-top: 0rem;
+    border-radius: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .typetext {
+    font-size: 18px;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+  .me {
+    height: 25rem;
+  }
+  img.headerimg {
+    height: 135vh;
+    display: contents;
+    object-fit: none;
+  }
+} */
 
-    }
-    .typetext{
-        font-size: 18px;
-    }
-    .header__socials, .scroll__down{
-        display: none;
-    }
-    .me{
-        height: 25rem;
-    }
-    img.headerimg{
-        height: 135vh;
-        /* display: contents; */
-        /* object-fit: none; */
-    }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  header {
+    height: 110vh;
+    margin-bottom: 4rem;
+  }
+  .typetext {
+    font-size: 1.4rem;
+  }
+  .me {
+    height: 20rem;
+    width: 20rem;
+  }
+  .scroll__down,
+  .header__socials {
+    display: none;
+  }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    height: 120vh;
+    padding-top: 5rem;
+    border-radius: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: center;
+  }
+  .typetext {
+    font-size: 1.5rem;
+  }
+  .me {
+    height: 23rem;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
+
+/* For laptops */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  header {
+    height: 100vh;
+    padding-top: 5rem;
+    border-radius: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: center;
+  }
+  .typetext {
+    font-size: 1.5rem;
+  }
+  .me {
+    height: 25rem;
+  }
+
+  .scroll__down {
+    bottom: 12rem;
+    right: 10rem;
+    font-size: 1.2rem;
+  }
+
+  .header__socials {
+    left: 13rem;
+    bottom: 10rem;
+  }
+}
+
+/* @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  header {
+    height: 100vh;
+    overflow: inherit;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    justify-content: center;
+  }
+
+  .scroll__down {
+    bottom: 5rem;
+    right: 25rem;
+  }
+
+  .header__socials {
+    bottom: 13rem;
+    left: 27rem;
+  }
+} */

@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fb32eaf.css",
-    "main.js": "/static/js/main.9535ca13.js",
+    "main.css": "/static/css/main.f3a310e7.css",
+    "main.js": "/static/js/main.cec592b0.js",
     "static/media/Subject 4.png": "/static/media/Subject 4.81857a32123073861dc0.png",
-    "static/media/picture3.JPG": "/static/media/picture3.3a0acc0e205d8de273af.JPG",
+    "static/media/Paper3.png": "/static/media/Paper3.3ad6935808930075b59c.png",
+    "static/media/Hamster.png": "/static/media/Hamster.18d1cbdccaa4080772a9.png",
     "static/media/CrimsonBoard.png": "/static/media/CrimsonBoard.01d4a47f5ea0713515aa.png",
-    "static/media/Srichandana Chakilam Resume.pdf": "/static/media/Srichandana Chakilam Resume.0c8b5ee07ad14199a254.pdf",
+    "static/media/SDE.pdf": "/static/media/SDE.ca6692dd4c151086f14e.pdf",
     "static/media/Picture1.png": "/static/media/Picture1.fb6a57e37b72bdbcc2ff.png",
+    "static/media/Paper2.png": "/static/media/Paper2.0976609292bb1c770bca.png",
+    "static/media/todo.jpeg": "/static/media/todo.d4d26ea4b41e2784a36e.jpeg",
+    "static/media/eskenazi.jpeg": "/static/media/eskenazi.7dcc523934b1ca5b999c.jpeg",
+    "static/media/background.avif": "/static/media/background.2778177de036fcfd6a5e.avif",
+    "static/media/logo.png": "/static/media/logo.2cf9b6c2cc5d04f39126.png",
     "index.html": "/index.html",
-    "main.6fb32eaf.css.map": "/static/css/main.6fb32eaf.css.map",
-    "main.9535ca13.js.map": "/static/js/main.9535ca13.js.map"
+    "main.f3a310e7.css.map": "/static/css/main.f3a310e7.css.map",
+    "main.cec592b0.js.map": "/static/js/main.cec592b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fb32eaf.css",
-    "static/js/main.9535ca13.js"
+    "static/css/main.f3a310e7.css",
+    "static/js/main.cec592b0.js"
   ]
 }

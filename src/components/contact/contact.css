@@ -1,40 +1,51 @@
-.container.contact__container{
-    width: 78%;
-    display: grid;
-    grid-template-columns: 20% 60%;
-    gap: 10%;
+#contact {
+  margin: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.contact__container {
+  /* align-items: center; */
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  gap: 6%;
+  margin: 2rem 0rem;
 }
 
-.waytocontact{
-    display: flex;
-    flex-direction: column;
-    gap: 6rem;
-    /* border: 1px solid; */
-    border-radius: 2rem;
+.waytocontact {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  /* border: 1px solid; */
+  border-radius: 2rem;
 }
 
-.contact_option{
-    background: var(--color-bg-variant);
-    padding: 1rem;
-    text-align: center;
-    border-radius: 1.2rem;
-    border: 1px solid;
-    transition: var(--transition);
-    height: 20vh;
-    border-color: var(--color-primary);
-    /* margin: 1rem; */
+.contact_option {
+  background: var(--color-bg-variant);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1.2rem;
+  border: 1px solid;
+  transition: var(--transition);
+  height: 20vh;
+  border-color: var(--color-primary);
+  /* margin: 1rem; */
 }
 
-.contact_option:hover{
-    background: transparent;
-    border-color: var(--color-white);
+.contact_option:hover {
+  background: transparent;
+  border-color: var(--color-white);
 }
 
-.contact-icon{
-    font-size: 1.7rem;
-    margin: 0.5rem;
-    color: var(--color-primary);
-    transition: var(--transition);
+.contact-icon {
+  font-size: 1.7rem;
+  margin: 0.5rem;
+  color: var(--color-primary);
+  transition: var(--transition);
 }
 
 /* .contact-icon:hover{
@@ -42,89 +53,92 @@
     color: var(--color-white);
 } */
 
-.contact_option a{
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    display: grid;
-    gap: 20%;
+.contact_option a {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  display: grid;
+  gap: 20%;
 }
 
 /* for the form */
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-input, textarea{
-    width: 100%;
-    padding: 1.2rem;
-    border-radius: 1.2rem;
-    background: transparent;
-    border: 1px solid var(--color-primary);
-    resize: none;
-    color: var(--color-primary);
-    font-size: 1.1rem;
-    font-family: 'Quicksand', sans-serif;
+input,
+textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  background: transparent;
+  border: 1px solid var(--color-primary);
+  resize: none;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  font-family: "Quicksand", sans-serif;
 }
-button{
-    font-family: 'Quicksand', sans-serif;
+button {
+  font-family: "Quicksand", sans-serif;
 }
-
 
 /* media queries for different devices */
 
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
+  }
+  .waytocontact {
+    display: flex;
+    gap: 4rem;
+  }
 
-@media screen and (max-width: 1024px){
-    .container.contact__container{
-        grid-template-columns: 40% 60%;
-        gap: 2rem;
-    }
-    .waytocontact{
-        display: flex;
-        gap: 4rem;
-    }
+  .sendbtn {
+    font-size: 18px;
+    margin-left: 65%;
+  }
 
-    .sendbtn{
-        font-size: 18px;
-        margin-left: 65%;
-    }
+  .contact_option {
+    height: 12rem;
+  }
 
-    .contact_option {
-        height: 12rem;
-    }
-
-    .contact_option a{
-        margin-top: 0.5rem;
-        font-size: 1.5rem;
-        display: grid;
-    }
-
+  .contact_option a {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    display: grid;
+  }
 }
 
-@media screen and (max-width: 600px){
-    .container.contact__container{
-       width: var(--container-width-sm);
-       grid-template-columns: 35% 54%;
-       gap: 2rem;
-    }
+@media screen and (max-width: 600px) {
+  #contact {
+    height: 100%;
+    width: 26rem;
+    margin: 1rem 1rem;
+  }
 
-    .contact_option {
-        height: 12rem;
-    }
-    .contact_option a{
-        font-size: 1rem;
-        margin-top: 0.5rem;
-    } 
-    .waytocontact{
-        margin-top: 1rem;
-        display: flex;
-        gap: 2rem;
+  .contact__container {
+    margin: 2rem 0rem;
+    grid-template-columns: 1fr;
+    width: 20rem;
+  }
 
-    }
+  .contact_option {
+    height: 12rem;
+  }
+  .contact_option a {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  .waytocontact {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+  }
 
-    .sendbtn{
-        font-size: 14px;
-        margin-left: 30%;
-    }
+  .sendbtn {
+    font-size: 14px;
+    margin-left: 30%;
+  }
 }

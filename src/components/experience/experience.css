@@ -1,175 +1,232 @@
-/* .swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #fff;
-    background-color: var(--color-bg-variant);
-   
-  } */
+#experience,
+#skills {
+  margin: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-  }
+.experience_container {
+  display: grid;
+  width: 60rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  /* margin: 0rem 0rem 0rem 10rem; */
+  margin: 2rem 0rem;
+}
 
-  /* .swiper-slide img {
-    display: block;
-    width: 100%;
+.headerDetails {
+  display: grid;
+  grid-template-columns: 28rem 20rem;
+  color: var(--color-primary);
+}
+
+.tenure {
+  justify-self: end;
+}
+
+.accordion {
+  margin: 2rem;
+  border-radius: 2rem;
+  border: 1px solid;
+}
+
+/* .accordionBody {
+  margin: 2rem;
+  display: flex;
+  gap: 10rem;
+} */
+
+.slidericon {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  display: flex;
+  color: var(--color-primary);
+}
+
+.contentDetails {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.imgOrg {
+  width: 20rem;
+  height: 15;
+  float: left;
+  margin-right: 1rem;
+}
+
+.accordion-item {
+  margin: 1rem;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 2rem;
+}
+
+.responsibilities {
+  text-align: justify;
+  font-size: 1rem;
+  width: 50rem;
+  font-weight: 500;
+}
+
+.orgName,
+.roleName {
+  font-weight: 600;
+}
+.roleName {
+  font-size: 1rem;
+}
+
+.orgName {
+  width: 18rem;
+}
+
+.orgImage {
+  height: 10rem;
+  width: auto;
+  margin-bottom: 1rem;
+  justify-self: center;
+}
+
+.accordion:hover {
+  background: transparent;
+  border-color: var(--color-white);
+}
+
+/* Skills Container */
+
+.skill_container {
+  height: 40rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  /* margin: 0rem 7rem 0rem 10rem; */
+  display: flex;
+  width: 60rem;
+  margin: 2rem 0rem;
+}
+
+.skillContent {
+  margin: 3rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  width: 30rem;
+}
+
+.skillType {
+  margin: 1.5rem;
+}
+
+.skillTypeName {
+  display: flex;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.skillList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: -2rem;
+  font-weight: 500;
+}
+
+.skillDetails {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.skillContent:hover {
+  background: transparent;
+  border-color: var(--color-white);
+}
+
+.skills_icon {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  display: flex;
+  color: var(--color-primary);
+}
+
+/* media queries for different devices */
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  #skills,
+  #experience {
     height: 100%;
-    object-fit: cover;
+    width: 26rem;
+    margin: 1rem 1rem;
+  }
+
+  .experience_container,
+  .skill_container {
+    margin: 2rem;
+    width: 22rem;
+    height: fit-content;
+    text-align: justify;
+  }
+  .headerDetails {
+    display: grid;
+    grid-template-columns: 7rem 7rem;
+    gap: 0rem;
+    width: 13rem;
+  }
+
+  .accordion-body {
+    font-size: 0.8rem;
+    width: 10rem;
+  }
+
+  .accordion {
+    width: 18rem;
+    margin: 1rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid;
+  }
+
+  .responsibilities {
+    font-size: 0.8rem;
+    width: 13rem;
+    display: grid;
+    gap: 3rem;
+  }
+
+  .slidericon {
+    margin-left: 0rem;
+  }
+
+  .imgOrg {
+    width: 10rem;
+    height: 15rem;
+  }
+  .orgName {
+    width: 15rem;
+  }
+  /* #skills {
+    width: 25rem;
+    height: fit-content;
+    text-align: center;
   } */
 
-  /* .swiper {
-    width: 30rem;
-    height: 45rem;
-    margin: 3rem;
-    
-  }   */
-
-  .swiper {
-    width: 50rem;
-    height: 40rem;
-    border-radius: 3rem;
-    background-color: var(--color-bg-variant);
-    border: solid 1px;
-    cursor: grab;
-    transition: var(--transition);
-  }
-  .mySwiper{
-    margin-bottom: 2rem ;
-  }
-
-  .swiper:hover{
-    background-color: transparent;
-    border-color: var(--color-white);
-  }
-
-  .sliderheader{
-    margin: 2rem 1rem;
-    text-align: center;
-    color: var(--color-white);
-    border-bottom: 2px solid var(--color-primary);
-    background-color: var(--color-primary-variant);
-    border-radius: 3rem;
-    padding: 2rem;
-    transition: var(--transition);
-
-  }
-
-  .sliderheader:hover{
-    background-color: transparent;
-    border-color: var(--color-white);
-    color: var(--color-primary);
-  }
-  
-  .slidercontent{
+  .skill_container {
+    margin: 2rem 0rem;
+    align-items: center;
+    justify-items: center;
     display: grid;
-    grid-template-columns: 10% 90%;
-
+    width: 22rem;
+    height: fit-content;
+    text-align: justify;
   }
 
-  .sliderpoint{
-    font-size: 1.1rem;
-    margin-right: 2rem;
-    margin-bottom: 1.5rem;
-    text-align:justify;
-    color: var(--color-primary);
+  .skillContent {
+    justify-self: center;
+    width: 18rem;
+    margin: 1rem 1rem;
   }
-
-  .slidericon{
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    display: flex;
-    color: var(--color-primary);
-  }
- 
-
-.container__experience{
-    display: grid;
-    grid-template-columns: 0.33fr 0.33fr 0.33fr;
-    gap: 2rem
-}
-
-.container__experience > div{
-    background: var(--color-bg-variant);
-    border: 1px solid;
-    border-radius: 2rem;
-    padding: 2rem;
-    transition: var(--transition);
-}
-
-.container__experience > div:hover{
-    background-color: transparent;
-    border-color: var(--color-white);
-    cursor:default;
-}
-
-.container__experience > div h3{
-    text-align: center;
-    color: var(--color-primary);
-    margin-bottom: 1rem;
-}
-
-.experience__content{
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
-    row-gap: 2rem;
-}
-
-.experience__details{
-    display: flex;
-    gap: 0.7rem
-}
-
-.experience__details-icon{
-    margin-top: 6px;
-    color: var(--color-primary);
-}
-
-@media screen and (max-width: 1024px){
-    .container__experience{
-        grid-template-columns: 1fr;
-    }
-    .container__experience > div{
-        width: 75%;
-        /* padding: 2rem; */
-        margin: 0 auto;
-    }
-
-    .experience__content{
-        padding: 2rem;
-    }
-
-    .swiper{
-      width: 90%;
-      height: fit-content;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .container__experience{
-        gap: 2rem;
-    }
-
-    .container__experience >div{
-        padding: 2rem 1rem;
-        width: 100%;
-    }
-    .swiper{
-      width: 90%;
-      height: fit-content;
-    }
-
-    .slidericon{
-      margin-left: 0.5rem;
-      margin-top: 0.5rem;
-    }
-    .sliderpoint{
-      font-size: 15px;
-    }
-
 }
