@@ -79,9 +79,8 @@ const projectData = [
   {
     name: "SliceMate | The Bill Slicing Companion",
     image: slicer,
-    git: "https://github.com/Chakilamchandana/django_lms",
-    external:
-      "https://drive.google.com/file/d/1MDKJ6Sfl7JpR_6RZt51TwprtZrkYlFaP/view",
+    git: "https://github.com/Chakilamchandana/slicemate",
+    external: "https://slicemate.netlify.app/",
   },
 ];
 
