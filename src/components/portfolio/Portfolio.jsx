@@ -9,6 +9,7 @@ import logo from "../../assets/logo.png";
 import todo from "../../assets/todo.jpeg";
 import jobsearch from "../../assets/jobsearch.jpeg";
 import cocktail from "../../assets/background.avif";
+import slicer from "../../assets/slicer.jpeg";
 
 const projectData = [
   {
@@ -74,6 +75,13 @@ const projectData = [
     git: "https://github.com/Chakilamchandana/Effects-of-Recession",
     external:
       "https://github.com/Chakilamchandana/Effects-of-Recession/tree/main/Supplemental",
+  },
+  {
+    name: "SliceMate | The Bill Slicing Companion",
+    image: slicer,
+    git: "https://github.com/Chakilamchandana/django_lms",
+    external:
+      "https://drive.google.com/file/d/1MDKJ6Sfl7JpR_6RZt51TwprtZrkYlFaP/view",
   },
 ];
 
