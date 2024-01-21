@@ -7,7 +7,11 @@ import HeaderSocials from "./HeaderSocials.jsx";
 
 const Header = () => {
   const [text] = useTypewriter({
-    words: ["a Computer Science Graduate...", "a Full-Stack Web Developer..."],
+    words: [
+      "a Computer Science Graduate...",
+      "a Full-Stack Web Developer...",
+      "and a Passionate Software Engineer...",
+    ],
     loop: {},
     typeSpeed: 120,
     deleteSpeed: 80,
