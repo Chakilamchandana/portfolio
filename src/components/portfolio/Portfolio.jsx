@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import lifepred from "../../assets/Picture1.png";
 import crimson from "../../assets/CrimsonBoard.png";
+import book from "../../assets/book-bucket.png";
 import paper1 from "../../assets/Hamster.png";
 import paper2 from "../../assets/Paper2.png";
 import paper3 from "../../assets/Paper3.png";
@@ -24,6 +25,12 @@ const projectData = [
     image: logo,
     git: "https://github.com/Chakilamchandana/jotbox",
     external: "https://jotbox.netlify.app/",
+  },
+  {
+    name: "Book Bucket | A note-taking system",
+    image: book,
+    git: "https://github.com/Chakilamchandana/book-bucket",
+    external: "https://book-bucket.netlify.app/",
   },
   {
     name: "EZ Job searcher | A Job Aggregator",
