@@ -15,13 +15,14 @@ import { Accordion } from "react-bootstrap";
 const experienceData = [
   {
     imageData: eskenazi,
-    role: "Web Support Intern",
+    role: "Web Development Intern",
     org: "Indiana University - Eskenazi School of Art, Architecture + Design",
     resp: [
       "Executed website updates using HTML, CSS, JavaScript, and PHP, implementing changes across IU Eskenazi School's 3 sites, published using Hannon Hill’s Cascade CMS, yielding a 25% increase in content accuracy and functionality.",
       "Amplified accessibility for the school’s 3 websites and more than 100 documents using Adobe Creative Suite, ensuring 100% compliance with Indiana University's ADA Policy UA-02 and WCAG 2.0.",
       "Achieved a 20% reduction in issue resolution time by streamlining technical support across Salesforce Marketing Cloud and MachForm/Fireforms.",
       "Directed website performance leveraging Google Analytics within the CMS, maintaining a 99% compliance rate with established protocols, and proactively addressing web-related issues to enhance the user experience.",
+      "Developed a PowerBI dashboard using Siteimprove scores, understanding customer interactivity and identifying areas for a 15% improvement in website accessibility.",
     ],
     tenure: "December 2023 - Present",
   },
@@ -66,10 +67,15 @@ const skillData = [
   {
     id: 1,
     type: "Programming, and Database Languages",
-    skillset: ["Python", "JavaScript", "Java", "SQL", "HTML5", "CSS3", "PHP"],
+    skillset: ["Python", "Java", "C", "SQL"],
   },
   {
     id: 2,
+    type: "Web Technlogies",
+    skillset: ["JavaScript", "HTML5", "CSS3", "PHP"],
+  },
+  {
+    id: 3,
     type: "Frameworks and Libraries",
     skillset: [
       "NodeJS",
@@ -78,33 +84,41 @@ const skillData = [
       "Bootstrap",
       "Django",
       "Spring Boot",
-      "Spring MVC",
       "MongoDB",
+      "Jest",
     ],
   },
   {
-    id: 3,
-    type: "Version controls, Tools, Programs, and Methodologies",
+    id: 4,
+    type: "Software Methodologies and OS",
+    skillset: ["Agile", "Scrum", "Jira", "Kanban", "Windows", "Linux", "MacOs"],
+  },
+  {
+    id: 5,
+    type: "Version controls, Tools, Programs",
     skillset: [
       "Git",
       "Visual Studio",
-      "Jira",
+      "Postman",
       "Docker",
       "SSMS",
       "Microsoft Power BI",
       "Cascade WCMS",
       "WordPress",
       "ServiceNow",
-      "CI/CD (DevOps)",
-      "Agile",
       "Adobe Creative Suite",
       "Google Analytics",
     ],
   },
   {
-    id: 4,
+    id: 6,
     type: "Cloud Technologies",
-    skillset: ["Amazon EC2", "Microsoft Azure"],
+    skillset: ["Amazon EC2", "Microsoft Azure (DevOps)"],
+  },
+  {
+    id: 7,
+    type: "Certifications",
+    skillset: ["Microsoft Azure Fundamentals"],
   },
 ];
 

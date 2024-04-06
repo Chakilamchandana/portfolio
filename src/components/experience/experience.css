@@ -106,8 +106,15 @@
   border-radius: 2rem;
   /* margin: 0rem 7rem 0rem 10rem; */
   display: flex;
-  width: 80rem;
+  /* width: 80rem; */
   margin: 2rem 0rem;
+
+  width: 75rem;
+  display: grid;
+  grid-template-columns: repeat(2, 0.6fr);
+  border: 1px solid;
+  margin: 2rem 0rem;
+  border-radius: 2rem;
 }
 
 .skillContent {
@@ -126,6 +133,7 @@
   margin-bottom: 2rem;
   font-size: 1.2rem;
   font-weight: 700;
+  justify-content: center;
 }
 
 .skillList {
@@ -138,7 +146,7 @@
 
 .skillDetails {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 10% 80%;
 }
 
 .skillContent:hover {
