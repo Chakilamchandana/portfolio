@@ -18,11 +18,12 @@ const experienceData = [
     role: "Web Development Intern",
     org: "Indiana University - Eskenazi School of Art, Architecture + Design",
     resp: [
-      "Executed website updates using HTML, CSS, JavaScript, and PHP, implementing changes across IU Eskenazi School's 3 sites, published using Hannon Hill’s Cascade CMS, yielding a 25% increase in content accuracy and functionality.",
-      "Amplified accessibility for the school’s 3 websites and more than 100 documents using Adobe Creative Suite, ensuring 100% compliance with Indiana University's ADA Policy UA-02 and WCAG 2.0.",
-      "Achieved a 20% reduction in issue resolution time by streamlining technical support across Salesforce Marketing Cloud and MachForm/Fireforms.",
-      "Directed website performance leveraging Google Analytics within the CMS, maintaining a 99% compliance rate with established protocols, and proactively addressing web-related issues to enhance the user experience.",
-      "Developed a PowerBI dashboard using Siteimprove scores, understanding customer interactivity and identifying areas for a 15% improvement in website accessibility.",
+      "Updated School’s websites using HTML, and JavaScript on Cascade CMS, boosting content accuracy by 85%.",
+      "Ensured ADA compliance and accessibility for over 1000 documents using Adobe Creative Suite across 3 websites.",
+      "Revamped legacy JavaScript code on the school’s internal website using the modern JavaScript library ReactJS, leading to enhanced performance and user experience.",
+      "Boosted code reusability by 40% through the development of 50+ ReactJS reusable components, empowering staff in managing forms, employee records, and documents.",
+      "Collaborated in configuring and managing 20+ RESTful API endpoints using NodeJS, ExpressJS, and MySQL on Azure for seamless data operations, and administrative tasks on the internal website, catering to 50 employees.",
+      "Developed a Power BI dashboard using Siteimprove scores, understanding customer interactivity and identifying areas for a 15% improvement in website accessibility across websites.",
     ],
     tenure: "December 2023 - Present",
   },
@@ -31,7 +32,7 @@ const experienceData = [
     role: "Technology Center Consulting",
     org: "Indiana University UITS - Bloomington",
     resp: [
-      "Resolved technical issues for clients of the Student Technology Centers efficiently, addressing software and hardware problems achieving a 40% increase in overall client satisfaction.",
+      "Resolved software and web-related issues for clients of the Student Technology Centers, contributing to a 40% increase in overall client satisfaction and supporting more than 100 clients weekly.",
       "Assisted clients with various computing platforms, like Windows,macOS, iOS, Android, contributing to a 98% service level agreement (SLA) and supporting more than 100 clients per week.",
       "Maintained network connections for campus housing residents, guaranteeing reliable connectivity to the university network for a student population of more than 10000.",
     ],
@@ -42,11 +43,10 @@ const experienceData = [
     role: "Application Development Analyst",
     org: "Accenture Solutions Private Limited",
     resp: [
-      "Collaborated with Microsoft, configuring 100+ advanced reports using SQL in SSMS, PowerBI and Excel for the Modern Analytics and Insights portal extracting crucial insights on client engagements, projects,labor hours, and revenue.",
-      "Developed and maintained an internal web application using ReactJS and NodeJS that displays user access requests for the MAI Portal, thereby optimizing functionality and enhancing the overall user experience.",
-      "Decreased reported incidents on ServiceNow by 30% by deploying Role-based Access Control (RBAC) for Microsoft Power BI dashboards and reports using SQL.",
+      "Configured and deployed 100+ advanced Power BI dashboards and Excel reports, leveraging DAX and SQL queries to manage Microsoft’s projects, labor hours, and revenue data stored in SSRS within Azure Data Cloud.",
+      "Reduced reported incidents on ServiceNow by 30% by performing extensive data analysis using SQL queries in SSMS.",
+      "Collaborated with cross-functional teams to configure and develop RESTful APIs for real-time backend data updates using Java and Spring Boot, seamlessly integrated with live Power BI dashboards.",
       "Defined solution requirements through platforms such as ServiceNow, SSMS, and Microsoft Power BI, resulting in a 20% reduction in recurring incidents, streamlining operations.",
-      "Redesigned an SQL database, regulating user roles and access rights for a user base exceeding 1000, ensuring data security with no breaches.",
     ],
     tenure: "June 2019 - June 2022",
   },
@@ -67,7 +67,7 @@ const skillData = [
   {
     id: 1,
     type: "Programming, and Database Languages",
-    skillset: ["Python", "Java", "C", "SQL"],
+    skillset: ["Python", "Java", "C", "SQL", "DAX"],
   },
   {
     id: 2,
@@ -80,6 +80,7 @@ const skillData = [
     skillset: [
       "NodeJS",
       "ExpressJS (REST API)",
+      "jQuery",
       "ReactJS",
       "Bootstrap",
       "Django",
@@ -91,7 +92,7 @@ const skillData = [
   {
     id: 4,
     type: "Software Methodologies and OS",
-    skillset: ["Agile", "Scrum", "Jira", "Kanban", "Windows", "Linux", "MacOs"],
+    skillset: ["Agile", "Scrum", "Jira", "Kanban", "Windows", "Linux", "MacOS"],
   },
   {
     id: 5,
@@ -101,6 +102,7 @@ const skillData = [
       "Visual Studio",
       "Postman",
       "Docker",
+      "IntelliJ",
       "SSMS",
       "Microsoft Power BI",
       "Cascade WCMS",
@@ -118,7 +120,12 @@ const skillData = [
   {
     id: 7,
     type: "Certifications",
-    skillset: ["Microsoft Azure Fundamentals"],
+    skillset: [
+      "Microsoft Certified - Azure Data Fundamentals",
+      "Udemy Certified - Microsoft Power BI Desktop",
+      "Udemy Certified - The Ultimate React 2024 ",
+      "Udemy Certified - The Complete Web Development Bootcamp 2023",
+    ],
   },
 ];
 

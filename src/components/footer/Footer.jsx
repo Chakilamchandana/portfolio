@@ -4,13 +4,13 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__comp" rel="noreferrer">
+      <a href="#about" className="footer__comp" rel="noreferrer">
         Srichandana Chakilam
       </a>
       <div className="footer__container">
         <ul className="links">
           <li>
-            <a href="#" rel="noreferrer">
+            <a href="/" rel="noreferrer">
               Home
             </a>
           </li>
@@ -29,7 +29,9 @@ const Footer = () => {
         </ul>
 
         <div className="footer__cr">
-          <small>&copy;Srichandana Chakilam. All rights reserved</small>
+          <small>
+            <i>Copyright&copy;2024. All rights reserved</i>
+          </small>
         </div>
       </div>
     </footer>

@@ -9,8 +9,8 @@ const Header = () => {
   const [text] = useTypewriter({
     words: [
       "a Computer Science Graduate...",
-      "a Full-Stack Web Developer...",
-      "and a Passionate Software Engineer...",
+      "a Full-Stack Web Developer and...",
+      "a Passionate Software Engineer...",
     ],
     loop: {},
     typeSpeed: 120,
@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <header>
       <div className="header__container">
-        <h4>Hello there! I'm</h4>
+        <h4>Hello there! I am</h4>
         <h1>Srichandana Chakilam</h1>
         <h4>
           {" "}
