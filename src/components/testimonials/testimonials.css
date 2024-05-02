@@ -1,0 +1,96 @@
+#testimonial {
+  margin: 7rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  color: var(--color-primary);
+}
+
+.image-caption .title .employer {
+  font-style: normal;
+  margin-top: 0.5rem;
+}
+
+.thumbnail {
+  border: solid 1px;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  display: inline;
+  margin-bottom: 1rem;
+}
+
+.carouselContent {
+  width: 65rem;
+  margin: 2rem 0rem;
+  justify-content: center;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 5vh;
+  border: 1px solid;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.carousel-content {
+  padding: 5rem 8rem;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  font-family: "Kalam", sans-serif;
+  color: var(--color-primary) !important;
+}
+
+@media (max-width: 767px) {
+  .carousel-content {
+    position: initial;
+    z-index: 10;
+    padding: 3rem 2rem;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5rem;
+  }
+}
+.carousel-caption img {
+  width: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+@media (max-width: 767px) {
+  .carousel-caption img {
+    width: 4rem;
+    border-radius: 4rem;
+    margin-top: 1rem;
+  }
+}
+#image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+@media (max-width: 767px) {
+  #image-caption {
+    font-style: normal;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+}
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset;
+}

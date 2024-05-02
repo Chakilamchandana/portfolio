@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#about" className="footer__comp" rel="noreferrer">
-        Srichandana Chakilam
+        SC
       </a>
       <div className="footer__container">
         <ul className="links">
@@ -22,6 +22,9 @@ const Footer = () => {
           </li>
           <li>
             <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#testimonial">Testimonials</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

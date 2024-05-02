@@ -14,6 +14,7 @@
   grid-template-columns: 35% 65%;
   gap: 6%;
   margin: 2rem 0rem;
+  width: 50rem;
 }
 
 .waytocontact {
