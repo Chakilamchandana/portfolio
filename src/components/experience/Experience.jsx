@@ -34,7 +34,8 @@ const experienceData = [
     resp: [
       "Resolved software and web-related issues for clients of the Student Technology Centers, contributing to a 40% increase in overall client satisfaction and supporting more than 100 clients weekly.",
       "Assisted clients with various computing platforms, like Windows,macOS, iOS, Android, contributing to a 98% service level agreement (SLA) and supporting more than 100 clients per week.",
-      "Maintained network connections for campus housing residents, guaranteeing reliable connectivity to the university network for a student population of more than 10000.",
+      "Conducted hardware diagnostics and troubleshooting during walk-in support sessions, swiftly resolving technical issues and providing recommendations for system optimization and maintenance.",
+      "Trained junior team members, enhancing their technical skills and improving the overall efficiency of the support team.",
     ],
     tenure: "August 2023 - Present",
   },
@@ -47,6 +48,7 @@ const experienceData = [
       "Reduced reported incidents on ServiceNow by 30% by performing extensive data analysis using SQL queries in SSMS.",
       "Collaborated with cross-functional teams to configure and develop RESTful APIs for real-time backend data updates using Java and Spring Boot, seamlessly integrated with live Power BI dashboards.",
       "Defined solution requirements through platforms such as ServiceNow, SSMS, and Microsoft Power BI, resulting in a 20% reduction in recurring incidents, streamlining operations.",
+      "Optimized Development processes with Test-Driven Development using JUnit and Postman, reducing bugs by 20% and enhancing application stability.",
     ],
     tenure: "June 2019 - June 2022",
   },
@@ -80,13 +82,15 @@ const skillData = [
     skillset: [
       "NodeJS",
       "ExpressJS (REST API)",
-      "jQuery",
       "ReactJS",
+      "Spring (Framework & Boot)",
+      "Hibernate",
+      "jQuery",
       "Bootstrap",
       "Django",
-      "Spring Boot",
       "MongoDB",
       "Jest",
+      "JUnit",
     ],
   },
   {
@@ -103,6 +107,7 @@ const skillData = [
       "Postman",
       "Docker",
       "IntelliJ",
+      "Eclipse IDE",
       "SSMS",
       "Microsoft Power BI",
       "Cascade WCMS",
@@ -115,7 +120,7 @@ const skillData = [
   {
     id: 6,
     type: "Cloud Technologies",
-    skillset: ["Amazon EC2", "Microsoft Azure (DevOps)"],
+    skillset: ["AWS", "Microsoft Azure (DevOps)"],
   },
   {
     id: 7,
