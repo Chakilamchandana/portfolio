@@ -46,8 +46,8 @@ const experienceData = [
     resp: [
       "Configured and deployed 100+ advanced Power BI dashboards and Excel reports, leveraging DAX and SQL queries to manage Microsoft’s projects, labor hours, and revenue data stored in SSRS within Azure Data Cloud.",
       "Reduced reported incidents on ServiceNow by 30% by performing extensive data analysis using SQL queries in SSMS.",
-      "Collaborated with cross-functional teams to configure and develop RESTful APIs for real-time backend data updates using Java and Spring Boot, seamlessly integrated with live Power BI dashboards.",
-      "Defined solution requirements through platforms such as ServiceNow, SSMS, and Microsoft Power BI, resulting in a 20% reduction in recurring incidents, streamlining operations.",
+      "Collaborated with cross-functional teams to configure and develop RESTful APIs for real-time backend data updates using Java, Spring Boot, Spring Data JPA, and Hibernate seamlessly integrated with live Power BI dashboards.",
+      "Incorporated Docker to containerize applications, improving deployment efficiency by 40% and ensuring consistent runtime environments across development, testing, and production stages.",
       "Optimized Development processes with Test-Driven Development using JUnit and Postman, reducing bugs by 20% and enhancing application stability.",
     ],
     tenure: "June 2019 - June 2022",
