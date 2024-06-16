@@ -37,19 +37,19 @@ const Contact = () => {
       <div className="contact__container">
         <div className="waytocontact">
           <article className="contact_option">
-            <MdOutlineMail className="contact-icon" />
             <a href="mailto:schakil@iu.edu" target="_blank" rel="noreferrer">
+              <MdOutlineMail className="contact-icon" />
               Connect via email
             </a>
           </article>
 
           <article className="contact_option">
-            <BsLinkedin className="contact-icon" />
             <a
-              href="https://www.linkedin.com/in/chandana-chakilam-488837146/"
+              href="https://www.linkedin.com/in/srichandana-chakilam/"
               target="_blank"
               rel="noreferrer"
             >
+              <BsLinkedin className="contact-icon" />
               Let's talk on LinkedIn
             </a>
           </article>

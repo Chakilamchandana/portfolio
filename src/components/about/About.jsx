@@ -18,12 +18,12 @@ const About = () => {
         </div> */}
         <div className="aboutmyself">
           <p>
-            As an experienced software engineer with three years of practical
-            know-how, I am currently pursuing a graduate degree in Computer
-            Science at Indiana University Bloomington. My passion lies in web
-            development and data analysis, where I strive to explore new
-            technologies that enhance the user experience, make interfaces
-            seamless, and derive insights from data.
+            I am a recent Computer Science graduate from Indiana University
+            Bloomington with over four years of practical know-how. My passion
+            lies in software and web development, as well as tech support. I
+            strive to explore new technologies that enhance the user experience,
+            create seamless interfaces, derive insights from data, and provide
+            professional technical support to users.
           </p>
           <br />
           <p>

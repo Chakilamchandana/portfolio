@@ -9,7 +9,7 @@ const Header = () => {
   const [text] = useTypewriter({
     words: [
       "a Computer Science Graduate...",
-      "a Full-Stack Web Developer and...",
+      // "a Full-Stack Web Developer and...",
       "a Passionate Software Engineer...",
     ],
     loop: {},

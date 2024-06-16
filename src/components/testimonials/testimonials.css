@@ -39,9 +39,12 @@
 .carousel-content {
   padding: 5rem 8rem;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 2rem;
-  font-family: "Kalam", sans-serif;
+  /* font-family: "Kalam", sans-serif; */
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  /* font-family: "Nunito", sans-serif; */
   color: var(--color-primary) !important;
 }
 
